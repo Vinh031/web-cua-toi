@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: rgb(226, 221, 221);
+}
+.main{
+    font-size: 16px;
+    font-family: tahoma;
+    color:black;
+}
+.menu{
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    height:60px;
+    text-align: center;
+}
+.menu ul li{
+    position: relative;
+}
+.menu > ul >li {
+    display: inline-block;
+}
+
+.menu > ul > li > a{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 0px 15px;
+    line-height:60px;
+    color:rgb(64, 67, 70);
+    display: block;
+}
+.logo{
+    padding: 0 40px;
+}
+.menu ul ul{
+    width:163px;
+    left:0;
+    top:100%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    border-radius: 3px;
+}
+.menu ul ul li {
+    line-height: 40px;
+    padding:0 30px;
+    border-top:1px solid rgb(150, 148, 134);
+    border-radius: 3px;
+}
+.menu ul ul li a{
+    text-transform: capitalize;
+    color: black;
+}
+.menu ul li:hover{
+    background-color: burlywood;
+    border-radius: 3px;
+}
+.menu ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    top:100%;
+}
+.menu ul li:hover a:hover{
+    color: rgb(255, 255, 255);
+}
+.banner{
+    width:100%;
+}
+.banner img{
+    width:100%;
+    height:460px;
+}
+.bosuutap{
+    width:1200px;
+    margin:0 auto;
+    background-color: rgb(31, 29, 29);
+}
+.bosuutap .boxsp{
+    width:1180px;
+    padding:30px 10px 90px 10px;
+}
+.item{
+    float: left;
+    width:590px;
+    cursor: pointer;
+
+}
+.item img{
+    width:100%;
+    height:450px;
+}
+.item img:hover{
+    transform: scale(1.1);
+}
+.noidung{
+    margin-top: 130px ;
+    float:left;
+    width:580px;
+    margin-left:10px;
+}
+.noidung > h3{
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-left:20px;
+    color:blanchedalmond;
+}
+.noidung > p{
+    text-align: justify;
+    padding:5px;
+    font-size:17px;
+    color:blanchedalmond;
+}
+.clear{
+    clear:both;
+}
+.footer{
+    background-color: rgb(70, 63, 63);
+    padding-top:80px;
+    width: 100%;
+    margin-top: 1px;
+}
+.all_footer_noidung{
+    margin:0 auto;
+    width:1300px;
+}
+.footer .home{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    align-items: center;
+}
+i.icon{
+    color:white;
+}
+.home p a{
+    font-size: 15px;
+    padding-right: 20px;
+    color:white;
+}
+.home p a:hover{
+    color: rgb(58, 190, 223);
+}
+.footer_noidung{
+    margin:0 auto;
+    cursor: pointer;
+}
+.thong_tin{
+    float: left;
+    width:250px;
+    padding-left: 100px;
+    padding-top:50px ;
+}
+.thong_tin p{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    position: relative;
+}
+#lien_he{
+    font-size: 30px;
+    padding-bottom:-10px;
+    color:rgb(255, 255, 255);
+}
+.thong_tin p::after{
+    content: "";
+    background-color: rgb(20, 183, 223);
+    height:2px;
+    bottom: 0;
+    left:0;
+    position: absolute;
+    transition: all 0.2s ease-in-out;
+}
+.thong_tin p:hover::after{
+    width:40%;
+    transform: translateX(20%);
+}
+.thong_tin ul{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.thong_tin ul li {
+    padding:10px 0;
+}
+#cty{
+    text-align: justify;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top:none;
+}
+.thong_tin ul li a{
+    color:rgb(98, 220, 241);
+    font-size: 15px;
+}
+.icon1{
+    color:white;
+    padding-right:10px;
+    vertical-align: middle;
+    font-size:20px ;
+}
+.thong_tin ul li a:hover{
+    color:rgb(255, 255, 255);
+}
+.cuoi{
+    text-align:center;
+    background-color: rgb(29, 25, 25);
+    padding: 30px 0;
+}
+.cuoi p{
+    color:rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size:30px;
+}
